@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gobbonet-agentic"
+version = "0.1.0"
+description = "Run one GobboNet campaign where the harness, not the human, keeps the notes."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+# No dependencies. A campaign harness that depends on external services fails open
+# the moment they are unreachable; the harness records what it can and exits clearly.
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+gobbonet-agentic = "gobbonet_agentic.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/Aitherium/gobbonet-agentic"
+Documentation = "https://github.com/Aitherium/gobbonet-agentic#readme"
+Repository = "https://github.com/Aitherium/gobbonet-agentic.git"
+Issues = "https://github.com/Aitherium/gobbonet-agentic/issues"
+
+[tool.setuptools]
+packages = ["gobbonet_agentic"]
