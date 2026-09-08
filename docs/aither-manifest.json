@@ -6,7 +6,7 @@
   "repository": "https://github.com/Aitherium/gawbbonet",
   "kind": "tool",
   "status": "public",
-  "adopt": "Run one campaign and ask it what happened three sessions ago.",
+  "adopt": "Run one GobboNet campaign where the harness, not the human, keeps the notes.",
   "pairs_with": [
     "awdk",
     "awm"
@@ -14,12 +14,12 @@
   "includes": [],
   "metrics": {
     "files": {
-      "value": 12,
-      "as_of": "2026-09-07T03:14:23Z"
+      "value": 3,
+      "as_of": "2026-09-08T08:10:34-07:00"
     },
     "tests": {
-      "value": 1,
-      "as_of": "2026-09-07T03:14:23Z"
+      "value": 0,
+      "as_of": "2026-09-08T08:10:34-07:00"
     }
   }
 }
