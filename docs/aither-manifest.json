@@ -11,5 +11,15 @@
     "awdk",
     "awm"
   ],
-  "includes": []
+  "includes": [],
+  "metrics": {
+    "files": {
+      "value": 3,
+      "as_of": "2026-09-08T17:57:07Z"
+    },
+    "tests": {
+      "value": 0,
+      "as_of": "2026-09-08T17:57:07Z"
+    }
+  }
 }
