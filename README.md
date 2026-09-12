@@ -2,7 +2,7 @@
 
 <!-- aither-header:start GENERATED from the ecosystem registry. Edits here are overwritten; change the registry instead. -->
 
-**[Docs](https://aitherium.github.io/gawbbonet/)**  ·  [Source](https://github.com/Aitherium/gawbbonet)  ·  `pip install awdk`  ·  [The Aither World](https://aitherium.github.io/)
+**[Docs](https://aitherium.github.io/gawbbonet/)**  ·  [Source](https://github.com/Aitherium/gawbbonet)  ·  `pip install git+https://github.com/Aitherium/gawbbonet`  ·  [The Aither World](https://aitherium.github.io/)
 
 > **The Aither World** is an operating system for agents — a Linux you can hand to one, the runtimes it works in, and the tools it works with. [awnix](https://github.com/Aitherium/awnix) is the Linux underneath it; **gawbbonet** is one of its 55 bricks — each installs on its own, runs offline, and needs no account.
 >
