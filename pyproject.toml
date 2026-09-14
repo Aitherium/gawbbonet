@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "gobbonet-agentic"
+name = "gawbbonet"
 version = "0.1.0"
 description = "Run one GobboNet campaign where the harness, not the human, keeps the notes."
 readme = "README.md"
@@ -17,13 +17,13 @@ dependencies = []
 dev = ["pytest>=7.0"]
 
 [project.scripts]
-gobbonet-agentic = "gobbonet_agentic.cli:main"
+gawbbonet = "gawbbonet.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/Aitherium/gobbonet-agentic"
-Documentation = "https://github.com/Aitherium/gobbonet-agentic#readme"
-Repository = "https://github.com/Aitherium/gobbonet-agentic.git"
-Issues = "https://github.com/Aitherium/gobbonet-agentic/issues"
+Homepage = "https://github.com/Aitherium/gawbbonet"
+Documentation = "https://github.com/Aitherium/gawbbonet#readme"
+Repository = "https://github.com/Aitherium/gawbbonet.git"
+Issues = "https://github.com/Aitherium/gawbbonet/issues"
 
 [tool.setuptools]
-packages = ["gobbonet_agentic"]
+packages = ["gawbbonet"]

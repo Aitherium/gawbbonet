@@ -1,6 +1,6 @@
-"""gobbonet-agentic — run one GobboNet campaign where the harness keeps the notes.
+"""gawbbonet — run one GobboNet campaign where the harness keeps the notes.
 
-    from gobbonet_agentic import Campaign, Harness
+    from gawbbonet import Campaign, Harness
 
     campaign = Campaign(
         name="my_campaign",

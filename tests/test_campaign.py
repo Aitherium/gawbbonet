@@ -5,7 +5,7 @@ import tempfile
 from pathlib import Path
 
 import pytest
-from gobbonet_agentic import Campaign, CampaignResult, Harness
+from gawbbonet import Campaign, CampaignResult, Harness
 
 
 class TestHarness:
